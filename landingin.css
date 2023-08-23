@@ -1,0 +1,175 @@
+.header
+{
+	height: 70px;
+  text-shadow: 1px 1px 2px black, 0 0 25px white;, 0 0 5px white;
+
+  position: sticky;
+  display: flex;
+
+
+}
+
+.header h1
+{
+	margin-left: 500px;
+	margin-bottom: 40px;
+	font-size: 30px;
+	color: white;
+}
+
+.container
+{
+	height: 600px;
+	background-repeat: no-repeat;
+	width: 1500px;
+ 
+}
+.icon
+{
+	margin-top: 20px;
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+	border-radius: 40px;
+	margin-left: 6px;
+}
+.second{
+	height: 70px;
+}
+.second button
+{
+	background-color: blue;
+  color: white;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  float: right;
+  width: 100px;
+  text-align: center;
+  background:#1abc9c ;
+}
+.second a
+{
+  padding: 16px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: serif;
+}
+.second i
+{
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+}
+.second i:hover
+{
+	background: #FFB64A;
+	
+}
+.second a:hover
+{
+	background: #FFC360;
+}
+.second button:hover
+{
+	background: lightskyblue;
+}
+ .center
+ {
+ 	color: white;
+ 	margin-left: 300px;
+ 	font-size: 40px;
+ 	font-weight: bold;
+ 	 color: white;
+ text-shadow: 1px 1px 2px black, 0 0 25px white;, 0 0 5px white;
+
+}
+ 
+ .down
+ {
+ 
+ 	margin-left: 250px;
+ 	 color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px white;, 0 0 5px white;
+
+ }
+ .new{
+
+ 	background: url("track.jpeg");
+
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	min-height: 100vh;
+ }
+ .btn{
+  width: 200px;
+  height: 50px;
+  margin-left: 500px;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: orange;
+ }
+ .head{
+ 	min-height: 20vh;
+ 	display: flex;
+ 	background-image: url("shiny.jpeg");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+ .about
+{
+	width: 700px;
+	height: 400px;
+	margin-left: 40px;
+}
+.about h1
+{
+
+	font-size: 30px;
+	font-weight: bold;
+	
+}
+.about p
+{
+	font-size: 20px;
+}
+.head img
+{
+	width: 500px;
+	height: 250px;
+	padding: 50px;
+}
+.foot
+{
+	min-height: 50vh;
+  background-image: url("shiny.jpeg");
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+.how
+{
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.service
+{
+	display: flex;
+	margin-left: 10px;
+}
+.service img
+{
+	width: 400px;
+	height: 250px;
+	padding: 20px;
+}
+.service h1
+{
+	margin-left: 40px;
+	font-weight: bold;	
+}
