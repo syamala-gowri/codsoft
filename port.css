@@ -1,0 +1,211 @@
+.home
+{
+	background: linear-gradient(dodgerblue,hotpink);
+    min-height: 100vh;
+    
+}
+.nav
+{
+    display: flex;
+}
+.block a
+{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.block 
+{
+     display: flex;
+     margin-left: 700px;
+     position: fixed;
+}
+.intro
+{
+    display: flex;
+   
+}
+.intro h1
+{
+    font-family: cursive;
+}
+.intro p{
+ font-size: 30px;
+ font-family: cursive;
+ width: 600px;
+
+}
+.intro img
+{
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 140px;
+  
+}
+.content
+{
+    display: block;
+    padding: 30px;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.about
+{
+    width: 800px;
+    margin-left: 200px;
+    
+    font-size: 30px;
+    font-family: cursive;
+}
+.aboutme
+{
+    display: flex;
+}
+.aboutme img
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    box-shadow: 0px 0px 56px ghostwhite;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.home button
+{
+    width: 200px;
+    height: 50px;
+    background-color: lightseagreen;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 700px;
+    border-radius: 10px;
+
+}
+.home button:hover
+{
+    box-shadow: 0px 0px 50px white;
+
+}
+.home h1
+{
+    margin-left: 150px;
+
+   
+    font-size: 40px;
+}
+.bar{
+     text-align: right; /* Right-align text */
+ 
+  color: white; 
+
+
+}
+.container {
+  width: 50%; 
+  height: 20px;
+  background-color: #ddd; 
+  border-radius: 20px;
+  margin-left: 200px;
+  
+
+}
+/*.bar:hover
+{
+   animation: skills;
+   animation-duration: 3s;
+    
+}*/
+.html {width: 90%;height: 20px; background-color: #04AA6D;} /* Green */
+.css {width: 80%;height: 20px; background-color: blue;} /* Blue */
+.js {width: 65%;height: 20px; background-color: red;} /* Rebd */
+.php {width: 60%;height: 20px; background-color: #808080;} /* Dark Grey */
+
+.projects
+{
+    display: flex;
+}
+.projects img
+{
+    min-height: 500px;
+    width: 400px;
+    box-shadow: 0px 0px 52px white;
+    margin-left: 80px;
+    border-radius: 40px;
+
+}
+.contact
+{
+    display: flex;
+}
+.icons
+{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.icons i{
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 50px;
+  border:3px solid black;
+  background: linear-gradient(dodgerblue,hotpink);
+  
+}
+.sub
+{
+ display: block;
+ margin-top: 60px;
+}
+.sub p
+{
+    margin-left: 200px;
+    font-size: 20px;
+    font-family: cursive;
+    width: 400px;
+}
+.icons i:hover
+{
+    box-shadow: 0px 0px 50px white;
+}
+.form
+{
+    width: 500px;
+    height: 40px;
+    background:linear-gradient(violet,hotpink);
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.submit
+{
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    background-color: hotpink;
+    box-shadow: 0px 0px 50px white;
+    margin-left: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.resume
+{
+   
+    display: block;
+}
+.resume button
+{
+  width: 200px;
+    height: 50px;
+    background-color: lightseagreen;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 300px;
+    border-radius: 10px;   
+}
+.resume p{
+  margin-left: 250px;
+  font-size: 20px;
+}
